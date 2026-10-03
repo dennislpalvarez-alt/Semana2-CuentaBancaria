@@ -15,7 +15,7 @@ class CuentaBancaria:
         else:
             self.saldo -= cantidad
             print(f"Retiro exitoso de ${cantidad}. Saldo actual: ${self.saldo}")
-
+ 
     def consultar_saldo(self):
         print(f"Titular: {self.titular} | Cuenta: {self.numero_cuenta} | Saldo: ${self.saldo}")
 
